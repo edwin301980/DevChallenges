@@ -101,6 +101,12 @@ footer div a {
     font-weight: bold;
 }
 
+@media only screen and (min-width:1100px){
+    footer {
+        margin-top: 3rem;
+    }
+}
+
 @media only screen and (max-width:990px){
     #navbarNav {
         height: 40rem;
@@ -196,8 +202,25 @@ footer div a {
     }
 }
 
-@media only screen and (min-width:1100px){
+@media only screen and (max-width:575px){
+    #col_1 {
+        margin-top: 4rem;
+    }
+
+    #col_2 img{
+        width: 22rem;
+        height: 18rem;
+        margin-left: 0rem;
+    }
+
+    #col_3 {
+        width: 13rem;
+        height: 6.5rem;
+        margin-left: 8rem;
+        margin-top: -3rem;
+    }
+
     footer {
-        margin-top: 3rem;
+        margin-top: 5.5rem;
     }
 }

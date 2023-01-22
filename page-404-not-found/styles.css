@@ -179,3 +179,27 @@ a.dropdown-item img {
     letter-spacing: -0.035em;
     color: #4F4F4F;
 }
+
+@media only screen and (max-width:414px){
+    #scarecrow h1 {
+        margin-top: 4rem;
+
+    }
+    
+    #scarecrow img{
+        margin-top: -2rem;
+    
+    }
+
+    #scarecrow .row .container {
+        width: 70%;
+        margin-left: 29%;
+
+    }
+
+    #scarecrow .row .container h1 {
+        margin-top: -3rem;
+
+    }
+
+}
